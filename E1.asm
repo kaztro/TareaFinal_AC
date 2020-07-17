@@ -240,7 +240,7 @@ kb:
 section	.data
 welcome	db "Parrafo en MAYUSCULAS. [Enter] Para enviar"
 len_1 equ $-welcome
-err	db "Debe ser un parrafo de entre 50 y 70 caracteres escrito en MAYUSCULAS"
+err	db "Debe ser en MAYUSCULAS con 50 o 70 caracteres"
 len_2 equ $-err
 continue db	"Continuar con el proceso? (enter <YES> | esc <NO>)"
 len_3 equ $-continue
